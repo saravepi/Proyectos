@@ -1,0 +1,277 @@
+/* Barra de navegacion*/
+
+.navbar{
+    padding: 2rem;
+    background-color: rgb(252, 247, 248);
+    
+} 
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales*/
+section {
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 57px;
+    font-family: "Coiny", system-ui;
+}
+
+.seccion1{
+    color: black;
+    background-color: rgb(247, 171, 185);
+}
+
+.seccion2{
+    color: white;
+    background-color: rgb(121, 12, 54);
+}
+
+.seccion3{
+    color: black;
+    background-color: rgb(247, 171, 185);
+}
+
+.seccion4{
+    color: white;
+    background-color: rgb(121, 12, 54);
+}
+
+.seccion5{
+    background-color: rgb(252, 247, 248);
+
+}
+
+.titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Coiny", system-ui;
+}
+
+.parrafo1 parrafo2 parrafo3{
+    font-size: 1.2rem;
+
+}
+
+
+/* Seccion principal*/
+.principal{
+    background-color:rgb(253, 221, 227);
+    min-height: 520px;
+    text-align: center;
+}
+
+.principal-2{
+    padding: 3rem;
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-portada{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.principal-2 h2{
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+
+
+/* Seccion sobre mi*/
+
+.sobre-mi{
+    height: 500px;
+    padding: 17px;
+}
+
+.sobre-mi .container{
+    max-width: 700px;
+    text-align: center;
+}
+
+/*Fotos*/
+
+.titulo{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: "Gayathri", system-ui;
+}
+
+.fotos{
+    padding: 40px 40px 80px 40px;
+}
+
+.fotos .carousel{
+    max-width: 800px;
+}
+
+.carousel-item .container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-imagen{
+    height: 600px;
+    width: 470px;
+    margin: 10px 10px 20px 10px;
+}
+
+.foto-texto{
+    max-width: 70%;
+    font-size: 87%;
+    text-align: center;
+    font-family: "Gayathri", system-ui;
+}
+
+.fecha-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.fecha-info p{
+    margin-bottom: 0;
+}
+
+.foto-footer .lugar{
+    font-size: 1.2rem;
+}
+
+.foto-footer .descripcion{
+    font-size: 1.2rem;
+    color: beige;
+}
+
+/*Hobbies*/
+
+.hobbies{
+    padding: 40px 40px 60px 40px;
+}
+
+.hobbies .columna{
+    padding: 20px;
+    border: 2px solid rgb(253, 221, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hobbies-titulo{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.hobbies i{
+    font-size: 2.5rem;
+    color: rgb(121, 12, 54);
+    background-color: rgb(253, 221, 227);
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+/* Musica*/
+
+.titulo-musica{
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Coiny", system-ui;
+}
+
+.musica{
+    min-height: 470px;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+.musica .card{
+    
+    text-align: center;
+    width: 70%;
+    max-width: 570px;
+    margin: 20px;
+}
+
+.musica .card-header{
+    font-weight: bold;
+    font-family: "Gayathri", system-ui;
+    
+}
+
+/* Contacto*/
+
+.seccion-titulo{
+    font-family: "Coiny", system-ui;
+    font-size: 2rem;
+    
+}
+
+.descripcion{
+    font-family: "Gayathri", system-ui;
+    
+}
+
+.contacto .container3{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.contacto .rectangulo{
+    margin-top: -4rem;
+    background-color:rgb(253, 221, 227);
+    border-radius: 7px;
+
+}
+
+.contacto .row{
+    width: 100%;
+    display: felx;
+
+}
+
+.contacto .descripcion{
+    color: rgb(255, 206, 243);
+    font-size: 1.4rem;
+}
+
+.contacto button{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(253, 221, 227);
+    border: 2px solid white;
+    padding: 1.25rem 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all;
+}
+
+.contacto button i{
+    color: rgb(121, 12, 54);
+    font-size: 1.7rem;
+    transition: all;
+}
